@@ -3,53 +3,77 @@
   <head>
     <meta charset="utf-8">
     <title>Neori</title>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/master.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
-    <header>
+    <header class="clearfix">
       <div class="title">
         <img src="img/logo.png" class="logo">
       </div>
-      <nav>
-          <div><a></a>Features</div>
-          <div><a></a>Editorials</div>
-          <div><a></a>Environment</div>
-          <div><a></a>Blog</div>
-          <div><a></a>Shop</div>
-          <div><a></a>Contact</div>
-      </nav>
-      <div class="banner">
-        <img src="img/banner.jpg" class="pic_1">
-        <div class="text_bottom_left">
-          <h2>Pretium ac placerat dui interdum nunc in eros urna morbi</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        </div>
+      <div class="empty_space"></div>
+      <div class="menu_container">
+        <nav>
+          <ul>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Editorials</a></li>
+            <li><a href="#">Environment</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
       </div>
     </header>
+
     <main>
-      <div class="col">
-        <div class="bottom">
-          <h2>Leadership</h2>
+      <section>
+        <div class="jumbotron">
+          <img src="img/banner.jpg" class="pic_1" alt="Jumbotron Image">
+          <div class="text_jumbotron">
+            <h2>Pretium ac placerat dui interdum nunc in eros urna morbi</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="title_main">
+          <h1>Leadership</h1>
           <p>Fertenum urna a libero tempus</p>
         </div>
-        <div class="left">
-          <img src="img/img-1.jpg" class="img_left">
-          <h3>Lorem</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit </p>
+      </section>
+
+      <section>
+        <div class="col_container clearfix">
+          <div class="left_col">
+            <div class="img_container">
+              <img src="img/img-1.jpg" alt="">
+            </div>
+            <h3>Lorem</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+          </div>
+          <div class="middle_col">
+            <div class="img_container">
+              <img src="img/banner-2.jpg" alt="">
+            </div>
+            <h3>Ipsum</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div class="right_col">
+            <div class="img_container">
+              <img src="img/img-3.jpg" alt="">
+            </div>
+            <h3>Lorem</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
         </div>
-        <div class="centered">
-          <img src="img/img-2.jpg" class="img_centered">
-          <h3>Ipsum</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
-        <div class="right">
-          <img src="img/img-3.jpg" class="img_right">
-          <h3>Lorem</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint </p>
-        </div>
-      </div>
+      </section>
     </main>
+
+    <!-- IDEA: da qui vecchio codice -->
+
     <footer>
       <div class="footer">
         <p>Designed with <i class="fa fa-heart"></i></p>
